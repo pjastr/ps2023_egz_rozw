@@ -40,7 +40,7 @@ int main()
     lista->next->next->next->next = NULL;
     print_list(lista);
     printf("%p\n", ostatnia_dodania(lista));
-    //przyklad bez dodanych liczb
+    //przyklad bez dodatnich liczb
     struct node * lista2 = malloc(sizeof(struct node));
     lista2->next = malloc(sizeof(struct node));
     lista2->next->value = -12;
